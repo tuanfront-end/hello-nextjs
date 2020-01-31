@@ -1,9 +1,7 @@
-import Layout from "../components/MyLayout";
+import React, { Component } from "react";
 
-export default function About() {
-  return (
-    <Layout>
-      <p>This is the about page xcxcxcxcfjsfhjei</p>
-    </Layout>
-  );
+export default class about extends Component {
+  render() {
+    return <div>This is About Page</div>;
+  }
 }
